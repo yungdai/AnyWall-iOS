@@ -33,7 +33,7 @@ PAWSettingsViewControllerDelegate>
 
     // ****************************************************************************
     // Parse initialization
-    [Parse setApplicationId:@"APPLICATION_ID" clientKey:@"CLIENT_KEY"];
+    [Parse setApplicationId:@"7VKyoDCYua9wdMGr4FJb56AK8SaUrnmvrpl6dkoS" clientKey:@"omHaVBfXXThF34FPCemxwq0atvkX1qvFiAYcoebu"];
     // ****************************************************************************
 
     // Set the global tint on the navigation bar
