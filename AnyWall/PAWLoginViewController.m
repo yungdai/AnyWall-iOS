@@ -15,10 +15,9 @@
 #import "PAWNewUserViewController.h"
 
 @interface PAWLoginViewController ()
-<UITextFieldDelegate,
-UIScrollViewDelegate,
-PAWNewUserViewControllerDelegate>
+<UITextFieldDelegate, UIScrollViewDelegate, PAWNewUserViewControllerDelegate>
 
+// these properties is to define a subview that will pop up when your'e logging in
 @property (nonatomic, assign) BOOL activityViewVisible;
 @property (nonatomic, strong) UIView *activityView;
 
@@ -290,6 +289,7 @@ PAWNewUserViewControllerDelegate>
 #pragma mark Keyboard
 
 - (void)dismissKeyboard {
+
     [self.view endEditing:YES];
 }
 
